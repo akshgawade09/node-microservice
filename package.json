@@ -1,0 +1,19 @@
+{
+  "name": "microservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshgawade09/node-microservice.git"
+  },
+  "author": "Akshay Gawade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshgawade09/node-microservice/issues"
+  },
+  "homepage": "https://github.com/akshgawade09/node-microservice#readme"
+}
