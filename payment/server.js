@@ -20,6 +20,10 @@ app.get('/payment-list', (req, res) => {
     res.status(200).json(response);
 })
 
+app.get("/", (req, res) => {
+    res.send({message: "Payment service called."});
+})
+
 app.listen(port, () => {
-    console.log(`Order service is listening on PORT: ${port}`);
+    console.log(`Payment service is listening on PORT: ${port}`);
 })

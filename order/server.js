@@ -20,6 +20,10 @@ app.get('/order-list', (req, res) => {
     res.status(200).json(response);
 })
 
+app.get("/", (req, res) => {
+    res.send({message: "Order service called."});
+})
+
 app.listen(port, () => {
     console.log(`Order service is listening on PORT: ${port}`);
 })
